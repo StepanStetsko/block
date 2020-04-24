@@ -72,3 +72,9 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
+@media(max-width: 1000px){
+    .block {
+        max-width: 50%;
+    }
+}

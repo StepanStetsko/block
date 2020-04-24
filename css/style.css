@@ -12,12 +12,15 @@ body {
     padding: 20px 0;
 }
 
+.robot {
+    max-width: 100%;
+}
 
 .block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 525px;
+    max-width: 34%;
     text-align: center;
     margin: 0 auto;
 }
@@ -25,7 +28,7 @@ body {
 .block-tittle {
     font-size: 30px;
     font-weight: 600;
-    margin: 20px 0; 
+    margin: 20px 0;
     color: #fff;
 }
 

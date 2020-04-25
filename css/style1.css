@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.block{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.join{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.element1, .element2{
+    position: absolute;
+    width: 240px;
+
+}
+
+.element1 {
+    bottom: 5px;
+    left: 5px;
+}
+
+.element2{
+    top: 5px;
+    right: 5px;
+}
+
+.appreciation{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.subscription-status{
+    margin: 35px 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.go-home {
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 255px;
+    padding: 19px 35px 17px 34px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+@media(max-width: 1000px) {
+    .join {
+        max-width: 75%;
+    }
+
+    .element1 {
+        top: 100px;
+        left: -35px;
+        width: 150px;
+        transform: rotate(-125deg);
+        -webkit-transform: rotate(-125deg);
+        -moz-transform: rotate(-125deg);
+        -ms-transform: rotate(-125deg);
+        -o-transform: rotate(-125deg);
+}
+    
+    .element2{
+        top: 30px;
+        right: -90px;
+        width: 200px;
+        transform: rotate(-155deg);
+        -webkit-transform: rotate(-155deg);
+        -moz-transform: rotate(-155deg);
+        -ms-transform: rotate(-155deg);
+        -o-transform: rotate(-155deg);
+}
+}
+
+
+@media(max-width: 768px) {
+    .join {
+        max-width: 90%;
+    }
+
+    .element1 {
+        top: 10px;
+        left: -35px;
+        width: 110px;
+}
+    
+    .element2{
+        top: 150px;
+        right: -80px;
+        width: 150px;
+}
+}

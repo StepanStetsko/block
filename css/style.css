@@ -75,7 +75,7 @@ body {
     border-radius: 4px;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1000px) {
     .block {
         max-width: 70%;
     }
